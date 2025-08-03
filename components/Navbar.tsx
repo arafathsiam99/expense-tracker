@@ -2,7 +2,7 @@
 
 import { SignInButton, SignedIn, SignedOut, UserButton } from '@clerk/nextjs';
 import Link from 'next/link';
-// import ThemeToggle from '@/components/ThemeToggle';
+import ThemeToggle from '@/components/ThemeToggle';
 import { useState } from 'react';
 
 export default function Navbar() {
@@ -70,7 +70,7 @@ export default function Navbar() {
           <div className='flex items-center space-x-1 sm:space-x-2'>
             {/* Theme Toggle */}
             <div className='p-0.5 sm:p-1'>
-              {/* <ThemeToggle /> */}
+              <ThemeToggle />
             </div>
 
             {/* Authentication - Desktop */}
